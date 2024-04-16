@@ -3,12 +3,12 @@ entries:
   kc-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-04-16T14:11:35.869094757+02:00"
+    created: "2024-04-16T15:27:20.297730457+02:00"
     description: Práctica de K8S y HELM con CI/CD en modulo de Keepcoding Academy
-    digest: 350d74c55476f630758aff8c012f4c7b6559999b86c81cef8df917b99f0b28e8
+    digest: c770e3c3e9fbdf9fc00b25fc40f1c075d9fe63630716d7fdb25ec2ee9dd6efa4
     name: kc-chart
     type: application
     urls:
     - kc-chart/kc-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-04-16T14:11:35.864393986+02:00"
+generated: "2024-04-16T15:27:20.293658074+02:00"
