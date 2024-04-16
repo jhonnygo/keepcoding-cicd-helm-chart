@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kc-cicd-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kc-cicd-app
+  template:
+    metadata:
+      labels:
+        app: kc-cicd-app
+    spec:
+      containers:
+      - name: kc-cicd-container
+        image: jhoncytech/keepcoding-cicd:latest
+        ports:
+        - containerPort: 80
